@@ -1,5 +1,7 @@
 import  { Component } from 'react'
-import Greet from './Components/Greet'
+import Articles from './Components/Events and snapshots/Articles'
+import News from './Components/Instance/News'
+
 
 
 export default class App extends Component {
@@ -7,7 +9,8 @@ export default class App extends Component {
   render() {
     return (
       <div>   
-        <Greet />
+       {/* <Articles/> */}
+       <News/>
       </div>
     )
   }
